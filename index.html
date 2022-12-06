@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2 class="header-title">spli</h2>
+            <h2 class="header-title">tter</h2>
+        </header>
+        <main>
+            <div class="main-container">
+                <section class="calculator">
+                    <div class="bill">
+                        <div class="bill-title"><h4>Bill</h4><h4 class="zero-bill">Can't be Zero</h4></div>
+                        <form action="" class="form-sub"><input type="number" class="bill-input" placeholder="0"></form>
+                    </div>
+                    <div class="tip">
+                        <div class="tip-title"><h4>Select Tip %</h4></div>
+                        <div class="buttons">
+                            <div class="button" data-percentage="5"><p>5%</p></div>
+                            <div class="button" data-percentage="10"><p>10%</p></div>
+                            <div class="button" data-percentage="15"><p>15%</p></div>
+                            <div class="button" data-percentage="20"><p>25%</p></div>
+                            <div class="button" data-percentage="50"><p>50%</p></div>
+                            <div class="button-alt"><input type="number" class="tip-input" placeholder="Custom"></div>
+                        </div>
+                    </div>
+                    <div class="people">
+                        <div class="people-title"><h4>Number of People</h4><h4 class="zero-people">Can't be Zero</h4></div>
+                        <form action="" class="form-sub"><input type="number" class="people-input" placeholder="0"></form>
+                    </div>
+                </section>
+                <section class="result">
+                    <div class="amount">
+                        <div class="row">
+                            <div class="amount-text">
+                                <p>Tip Amount</p>
+                                <p class="text-small">/ person</p>
+                            </div>
+                            <div class="outcome-wrapper"><p>$<span class="outcome outcome-p">0.00</span></p></div>
+                        </div>
+                        <div class="row">
+                            <div class="amount-text">
+                                <p>Total</p>
+                                <p class="text-small">/ person</p>
+                            </div>
+                            <div class="outcome-wrapper"><p>$<span class="outcome outcome-t">0.00</span></p></div>
+                        </div>
+                    </div>
+                    <button type="submit" form="form-sub" class="reset-button">
+                        <p class="rst-btn-txt">reset</p>
+                        <p class="sub-btn-text">calculate</p>
+                    </button>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
