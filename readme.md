@@ -1,7 +1,7 @@
 # Tip Calculator
 
 The Tip Calculator allows the user to insert the amount of dollar spent on a bill and calculate the fixed tip amounts accordingly.
-After the calculation it shows how much each individual is owed including the said tip. The custom field does not yet work, this is a work in progress.
+After the calculation it shows how much each individual is owed including the said tip. The custom field input does not yet work, this is a work in progress.
 
 ## Front-end Mentor
 
